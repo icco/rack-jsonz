@@ -1,6 +1,6 @@
 # Rack::Jsonz
 
-TODO: Write a gem description
+A rack middleware that outputs status when you hit /jsonz
 
 ## Installation
 
