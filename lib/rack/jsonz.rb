@@ -1,7 +1,7 @@
 require "rack/jsonz/version"
 
 module Rack
-  module Jsonz
+  class Jsonz
     def initialize(app)
       @app = app
     end
