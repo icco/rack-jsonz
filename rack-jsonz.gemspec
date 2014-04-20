@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rack/jsonz/version'
+require 'rack/jsonz'
 
 Gem::Specification.new do |spec|
   spec.name          = "rack-jsonz"
