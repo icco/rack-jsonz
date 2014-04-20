@@ -1,6 +1,8 @@
 require 'rack/jsonz/metric'
+
 require 'system'
 require 'usagewatch'
+require 'usagewatch_ext'
 
 module Rack
   class Jsonz
