@@ -6,7 +6,7 @@ A rack middleware that outputs status when you hit /jsonz
 
 Add this line to your application's Gemfile:
 
-    gem 'rack-jsonz'
+    gem 'rack-jsonz', :require => 'rack/jsonz'
 
 And then execute:
 
@@ -22,7 +22,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/rack-jsonz/fork )
+1. [Fork it](http://github.com/icco/rack-jsonz/fork)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
