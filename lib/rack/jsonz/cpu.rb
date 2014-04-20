@@ -8,8 +8,8 @@ module Rack
     class CPU < Metric
       def metrics
         return {
-          :count => System::CPU.count,
-          :load => Usagewatch.uw_load,
+          :count => System::CPU.count.to_f,
+          :load => Usagewatch.uw_load.to_f,
         }
       end
 
