@@ -24,7 +24,7 @@ module Rack
       ret = {}
 
       cpu = CPU.new
-      cpu.metrics.each_pair do |k, v|
+      cpu.each_metric do |k, v|
         ret["/cpu/#{k}"] = v
       end
 
