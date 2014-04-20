@@ -6,6 +6,7 @@ module Rack
       def metrics
         return {
           :count => System::CPU.count
+          :load => Usagewatch.uw_load
         }
       end
     end
