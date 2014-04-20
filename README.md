@@ -1,6 +1,6 @@
 # Rack::Jsonz
 
-A rack middleware that outputs status when you hit /jsonz
+A rack middleware that outputs status when you hit /jsonz.
 
 ## Installation
 
