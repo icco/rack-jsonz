@@ -1,7 +1,5 @@
 module Rack
   class Jsonz
-    VERSION = "0.0.1"
-
     def initialize(app)
       @app = app
     end
