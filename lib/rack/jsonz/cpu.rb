@@ -1,3 +1,5 @@
+require 'system'
+
 module Rack
   class Jsonz
     class CPU
